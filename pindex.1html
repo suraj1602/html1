@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{background-color:orangered}
+        *{margin: 0; padding: 0;}
+        body{font-family: sans-serif;}
+        .form-wrap{ width: 320px; height: 130px; border-radius: 1pc; border: 2px solid rgb(100, 95, 95); box-shadow: 0 0 12px 0 rgb(8, 8, 8);
+     background-color: #42e62d; background-size: cover; padding: 40px 20px; box-sizing:inherit; position: fixed; left: 45%; top: 30%; transform: translate(-50%, -50%);}
+     h3{text-align: left; color:black; font-weight: normal; margin-bottom: 20px; font-family: sans-serif;}
+     input[type=radio]:focus{border-color: rgb(247, 246, 237); box-shadow: 0 0 8px 0 rgb(240, 239, 233); transition: .10s;}
+     input[type=submit]:focus{border-color: rgb(241, 234, 234); box-shadow: 0 0 8px 0 rgb(240, 234, 234); transition: .10s; cursor: pointer;}
+     .box{ width: 320px;overflow:scroll;float:left; height: 130px; border-radius: 1pc; border: 2px solid rgb(100, 95, 95); box-shadow: 0 0 12px 0 rgb(8, 8, 8);
+     background-color: orchid; background-size: cover; padding: 40px 20px; box-sizing:inherit; position: absolute; right: -1%;}
+     
+    </style>
+</head>
+<body>
+    <div class="form-wrap">
+        <form>
+            <h3>what is the problem?</h3>
+            <br> &nbsp;
+            <input type="radio" id="Yes" name="question" value="Yes">
+            <label for="Yes">Yes</label>
+            <input type="radio" id="Poll" name="question" value="No">
+            <label for="No">No</label>
+             <br><br> &nbsp; &nbsp;
+            <input type="submit" value="submit" style="background-color: rgb(255,255,255); border: 2px solid rgb(255,0,0); border-radius: 8px; padding: 10px;">
+            <br><br><br><br>
+            <div class="box">
+                <h3>STUDENTS</h3>
+
+            </div>
+
+        </form>
+
+
+    </div>
+    
+</body>
+</html>
